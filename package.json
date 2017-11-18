@@ -1,0 +1,29 @@
+{
+  "name": "object-mapper",
+  "version": "1.0.0",
+  "description": "Map/transform javascript objects from one to another by providing a transform config",
+  "main": "object-mapper.js",
+  "scripts": {
+    "test": "mocha 'src/**/*.test.js' --compilers js:babel-core/register --colors"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.25.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praburajan/object-mapper.git"
+  },
+  "author": "praburajan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/praburajan/object-mapper/issues"
+  },
+  "homepage": "https://github.com/praburajan/object-mapper#readme",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
